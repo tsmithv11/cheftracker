@@ -1,4 +1,4 @@
-# Count the number of scenes a person appears in in a movie
+# Count the number of scenes with a person using facial recognition
 
 _Note: This is very hacky and a work in progress_
 
@@ -13,3 +13,7 @@ You need `facenet_keras.h5` in your directory. Find it in the tutorial linked ab
 First, make sure you create a trained model using a folder with subfolders for each person saved as a pickle file (currently set to `svc_model.sav`) and encoder classes (currently set to `classes.npy`).
 
 Make sure to change `{video/location.mp4}` to your video location.
+
+## Other details
+
+Check out how I used this to try to predict who gets eliminated in Top Chef: https://www.ifoundanifty.com/2021/04/can-you-predict-the-winner-of-top-chef-based-on-screentime/
